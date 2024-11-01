@@ -1,0 +1,23 @@
+{
+    "name": "woocommerce-price-quote",
+    "version": "1.2.0",
+    "url": "https://github.com/wbcomdesigns/woocommerce-price-quote/",
+    "license": "GPL-2.0+",
+    "description": "This plugin helps in quoting the products that admin wishes to hide its purchasing details.",
+    "devDependencies": {
+        "grunt": "^1.4.1",
+        "grunt-checktextdomain": "^1.0.1",
+        "grunt-wp-i18n": "^1.0.3"
+    },
+    "engines": {
+        "node": ">=6.9.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wbcomdesigns/woocommerce-price-quote/"
+    },
+    "dependencies": {
+        "load-grunt-tasks": "^3.5.2",
+        "npm": "^8.15.1"
+    }
+}

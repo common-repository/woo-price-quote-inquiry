@@ -1,0 +1,9 @@
+<wpml-config>
+    <admin-texts>
+        <key name="wcpq_gen_stngs">
+            <key name="quote_label" />
+            <key name="remove_from_quote" />
+            <key name="browse_list" />
+        </key>		
+    </admin-texts>
+</wpml-config>

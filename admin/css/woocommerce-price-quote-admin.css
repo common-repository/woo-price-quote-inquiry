@@ -1,0 +1,136 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.wcprq-products.hide {
+  display: none;
+}
+
+#wcpq-select-all-uroles,
+#wcpq-unselct-all-uroles {
+  text-decoration: none;
+}
+
+.wcpq_description {
+  display: block;
+  font-weight: normal;
+  font-style: italic;
+  line-height: normal;
+}
+
+.price-quote-tab .wbcom-welcome-main-wrapper {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.price-quote-tab .wbcom-welcome-main-wrapper:after {
+  background: #000;
+  height: 100%;
+  width: 100%;
+  bottom: 4px;
+  border-radius: 10px;
+  content: "";
+  position: absolute;
+}
+
+.price-quote-tab .wbcom-welcome-main-wrapper a {
+  display: block;
+  position: relative;
+  z-index: 99;
+}
+
+.price-quote-tab .wbcom-welcome-main-wrapper small {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: #fff;
+  margin-top: -15px;
+  margin-left: -85px;
+  font-weight: 500;
+  z-index: 9;
+  line-height: 50px;
+  padding: 0 35px;
+  font-size: 15px;
+  background: #f02f32;
+  text-shadow: none;
+  transition: all 0.3s;
+  box-shadow: 0px 10px 25px rgb(32 53 85 / 35%);
+  border-radius: 12px;
+  border: none;
+  transition: all 0.3s;
+}
+
+
+.price-quote-tab .wbcom-welcome-main-wrapper a:focus {
+  box-shadow: none;
+  border: none;
+}
+
+.price-quote-tab .wbcom-welcome-main-wrapper img {
+  width: 100%;
+  margin: 0;
+  border-radius: 10px;
+  transition: all 0.3s;
+  opacity: 0.5;
+}
+
+.price-quote-tab .wbcom-welcome-main-wrapper:hover img {
+  opacity: 0.6;
+}
+
+
+.nav-tab-wrapper ul .wcpq-general a:before {
+  content: "\f111" !important;
+}
+
+.nav-tab-wrapper ul .wcpq-enquiry-cart a:before {
+  content: "\f174" !important;
+}
+
+.nav-tab-wrapper ul .wcpq-product-category a:before {
+  content: "\f318" !important;
+}
+
+.nav-tab-wrapper ul .wcpq-single-product a:before {
+  content: "\f513" !important;
+}
+
+.nav-tab-wrapper ul .wcpq-advanced-setting a:before {
+  content: "\f348" !important;
+}
+
+div#setting-error-settings_updated {
+  position: absolute;
+  right: 50px;
+  z-index: 99;
+  border-radius: 10px;
+  line-height: normal;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  color: #10ab00;
+}
+
+button.notice-dismiss:before {
+  color: red !important;
+}
+
+.wbcom-settings-section-wrap {
+  overflow: inherit;
+}
+
+.wbcom-settings-section-options .selectize-input.items.not-full.has-options,
+.wbcom-settings-section-options .selectize-input.items.not-full.has-options input[type="text"] {
+  height: auto;
+}
+
+.wbcom-wrap .notice.notice-error.is-dismissible.learndash-license-is-dismissible {
+  display: none !important;
+}
+
+
+.wbcom-wrap .notice.notice-error.is-dismissible.learndash-license-is-dismissible,
+#wpwrap .notice.notice-error, .wbcom-wrap .notice.notice-error {
+  display: none !important;
+}

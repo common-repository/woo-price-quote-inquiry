@@ -1,0 +1,222 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.multi-quote-message{
+    display: none;
+}
+
+/* Shop Page */
+.wcpq-add-to-quote,
+.wcpq-remove-quote,
+.browse-quote-list {
+    display: block;
+    box-shadow: none !important;
+}
+
+.wcpq-add-to-quote i,
+.wcpq-remove-quote i {
+    margin-left: 8px;
+}
+
+
+/* Single Product Page */
+.summary .wcpq-add-to-quote,
+.summary .wcpq-remove-quote,
+.summary .browse-quote-list {
+    margin: 15px 0;
+}
+
+.single-product .summary.entry-summary a.wcpq-remove-quote.button {
+    margin-right: 12px;
+    margin-top: 8px;
+}
+.single-product .summary.entry-summary a.browse-quote-list.button{
+  margin-top: 8px;
+}
+
+.woocommerce-info {
+    background: #f4f5f7 !important;
+    box-shadow: none !important;
+}
+
+p.woocommerce-info.multi-quote-message {
+    background: #eff6ef !important;
+    border-color: #29bf91;
+}
+
+p.woocommerce-info.multi-quote-message::before {
+    color: #29bf91;
+}
+
+/* Quote Details Page */
+th, td {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.wcpq-enquiry-tbl th:first-child, .wcpq-enquiry-tbl td:first-child, .wcpq-enquiry-tbl th:last-child, .wcpq-enquiry-tbl td:last-child {
+    padding: 10px;
+    text-align: left;
+}
+.wcpq-enquiry-tbl input#wcpq_send_copy[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* Reign theme related fixes */
+.reign-typo .wcpq-add-to-quote,
+.theme-reign-theme .wcpq-add-to-quote,
+.reign-typo .wcpq-remove-quote,
+.theme-reign-theme .wcpq-remove-quote,
+.reign-typo .browse-quote-list,
+.theme-reign-theme .browse-quote-list {
+    padding: 0 10px 10px 10px;
+}
+
+/* Hide browse the list button from shop page */
+.products_to_quote_html .browse-quote-list{
+	display: none;
+}
+
+/* Enquire Form PopUP */
+.wcpq-enquery-modal-box {
+	display: none;
+	position: fixed;
+	z-index: 1000;
+	width: 98%;
+	background: white;
+	border-bottom: 1px solid #aaa;
+	border-radius: 4px;
+	box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background-clip: padding-box;
+}
+
+.wcpq-enquery-modal-box header,
+.wcpq-enquery-modal-box .modal-header {
+	padding: 1.25em 1.5em;
+	border-bottom: 1px solid #ddd;
+}
+
+.wcpq-enquery-modal-box header h3,
+.wcpq-enquery-modal-box header h4,
+.wcpq-enquery-modal-box .modal-header h3,
+.wcpq-enquery-modal-box .modal-header h4 {
+	margin: 0;
+}
+
+.wcpq-enquery-modal-box .wcpq-enquery-modal-body {
+	padding: 2em 1.5em;
+}
+
+.wcpq-enquery-modal-box footer,
+.wcpq-enquery-modal-box .modal-footer {
+	padding: 1em;
+	border-top: 1px solid #ddd;
+	background: rgba(0, 0, 0, 0.02);
+	text-align: right;
+}
+
+.wcpq-enquery-modal-overlay {
+	opacity: 0;
+	filter: alpha(opacity=0);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 900;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.3) !important;
+}
+
+.wcpq-modal-close.close {
+	line-height: 1;
+	font-size: 1.5em;
+	position: absolute;
+	top: 5%;
+	right: 2%;
+	text-decoration: none;
+	color: #bbb;
+}
+
+.wcpq-modal-close.close:hover {
+	color: #222;
+	-webkit-transition: color 1s ease;
+	-moz-transition: color 1s ease;
+	transition: color 1s ease;
+}
+
+@media (min-width: 32em) {
+	.wcpq-enquery-modal-box {
+		width: 70%;
+	}
+}
+
+.single.single-product a.wcpq-add-to-quote.button {
+    margin: 10px 0;
+}
+
+.wcpq-product-enquiry .wcpq-enquiry-tbl input[type=email],
+.wcpq-product-enquiry .wcpq-enquiry-tbl input[type=number],
+.wcpq-product-enquiry .wcpq-enquiry-tbl input[type=tel],
+.wcpq-product-enquiry .wcpq-enquiry-tbl input[type=text],
+.wcpq-product-enquiry .wcpq-enquiry-tbl textarea {
+    width: 100%;
+    font-size: 15px;
+}
+.wcpq-product-enquiry .wcpq-enquiry-tbl textarea{
+  height: 100px;
+  padding:10px;
+}
+
+.theme-storefront a.wcpq-remove-quote.button,
+.theme-storefront a.wcpq-add-to-quote.button,
+.theme-storefront a.browse-quote-list.button {
+    margin:5px;
+}
+.wcpq-product-enquiry h4 {
+    margin: 0;
+    padding: 12px 15px;
+    border: 1px solid rgba(0,0,0,.1);
+    background: #f5f5f5;
+    border-bottom: none;
+}
+table.wcpq-enquiry-tbl {
+    background: #fff;
+}
+
+
+/*--------------------------------------------------------------
+## BuddyBoss
+--------------------------------------------------------------*/
+body.buddyboss-theme.woocommerce li.product a.wcpq-remove-quote.button,
+body.buddyboss-theme.woocommerce li.product a.wcpq-remove-quote.button,
+body.buddyboss-theme.woocommerce li.product a.browse-quote-list.button,
+body.buddyboss-theme.woocommerce li.product a.wcpq-add-to-quote.button {
+    flex: 0 0 100%;
+    max-width: calc(100% - 30px);
+    margin: 15px;
+    padding: 13px;
+}
+
+body.buddyboss-theme.woocommerce li.product a.browse-quote-list.button {
+    margin-top: 0 !important;
+}
+
+.buddyboss-theme.woocommerce.single-product a.browse-quote-list.button,
+.buddyboss-theme.single-product a.wcpq-remove-quote.button,
+.buddyboss-theme.single-product a.browse-quote-list.button,
+.buddyboss-theme.single-product a.wcpq-remove-quote.button {
+    max-height: 30px;
+}
+body.buddyboss-theme .products_to_quote_html a.a.wcpq-remove-quote.button,
+body.buddyboss-theme .products_to_quote_html a.browse-quote-list.button {
+    flex: 0 0 100%;
+    max-width: calc(100% - 30px);
+    margin: 15px;
+    padding: 13px;
+}
+body.buddyboss-theme .products_to_quote_html a.browse-quote-list.button {
+    margin-top:0 !important;
+}
